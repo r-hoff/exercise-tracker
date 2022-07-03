@@ -1,0 +1,29 @@
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Rows",
+    "reps": 10,
+    "weight": 90,
+    "unit": "lbs",
+    "date": "2021-08-10"
+}
+
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+PUT http://localhost:3000/exercises/6116b1f1aaf3bf47c03fe80d HTTP/1.1
+content-type: application/json
+
+{
+    "name": "modified",
+    "reps": 6,
+    "weight": 50,
+    "unit": "kg",
+    "date": "2021-08-10"
+}
+
+###
+DELETE http://localhost:3000/exercises/6116b1f1aaf3bf47c03fe80d HTTP/1.1

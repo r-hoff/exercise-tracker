@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  background-color: #eeeeee;
+  margin: none;
+  padding: 0em;
+}
+
+input {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+.App {
+  text-align: center;
+}
+
+.heading {
+  background-color: #0288d1;
+  color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.navigation {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+.nav-tab:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #e0e0e0;
+  border-bottom: 2px solid #757575;
+}
+
+.nav-tab:visited {
+  color: inherit;
+}
+
+/* table related items*/
+table,
+caption,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  padding: 0.25rem 0.25rem;
+}
+
+td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+table {
+  width: 50%;
+  background-color: #fafafa;
+  margin: auto;
+}
+
+caption {
+  font-weight: bold;
+  color: white;
+  background-color: #0277bd;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+.input-column-r-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-right: 0.25rem;
+}
+
+.input-column-l-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0.25rem;
+}
+
+.padding {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  font-weight: 500;
+  background-color: #66bb6a;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: auto;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #4caf50;
+}
+
+input {
+  border: none;
+  padding: 0.5rem;
+}
+
+.red {
+  color: #E53935;
+}
